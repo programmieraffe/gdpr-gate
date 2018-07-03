@@ -1,5 +1,22 @@
 body{
 	font-family:"Arial";
+	padding:0;
+	margin:0;
+}
+
+#header{
+	width:100%;
+	background: rgb(0,67,155);
+	text-align:center;
+}
+#header #logo img{
+	margin:0 auto;
+}
+
+#container{
+	background: white;
+	max-width:750px;
+	margin:30px auto;
 }
 
 button {
@@ -21,10 +38,6 @@ div.text-content-window{
 	font:16px/26px Georgia, Garamond, Serif;
 	overflow:auto;padding:10px;
 	text-align:left;
-}
-#wrap{
-	max-width:750px;
-	margin:0 auto;
 }
 .consent-box{
 	text-align: center;
