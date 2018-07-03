@@ -9,9 +9,7 @@ BEWARE: Alpha version, DO NOT use in production.
 3. Happy Hacking
 
 ## DEMO
-![alt text](gdpr_gate_screenshot.png)
-https://matthias-andrasch.de
-
+[![Foo](gdpr_gate_screenshot.png)](https://matthias-andrasch.de)
 
 ## Limitations
 - currently does not work with cache plugins
