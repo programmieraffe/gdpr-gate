@@ -88,7 +88,7 @@
         $userAgent = $_SERVER['HTTP_USER_AGENT'];
         $crawlers = 'Google|msnbot|Rambler|Yahoo|AbachoBOT|accoona|' .
         'AcioRobot|ASPSeek|CocoCrawler|Dumbot|FAST-WebCrawler|' .
-        'GeonaBot|Gigabot|Lycos|MSRBOT|Scooter|AltaVista|IDBot|eStyle|Scrubby';
+        'GeonaBot|Gigabot|Lycos|MSRBOT|Scooter|AltaVista|IDBot|eStyle|Scrubby|bot|slurp|crawler|spider|curl|facebook|fetch|twitter';
         $isCrawler = (preg_match("/$crawlers/", $userAgent) > 0);
         return $isCrawler;
       }
