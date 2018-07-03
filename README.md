@@ -1,6 +1,8 @@
 # GDPR GATE
 Consent page plugin for wordpress - consent first, content later.
-![alt text](gdpr-gate_cc0_benedikt_geyer.png)
+![alt text](gdpr-gate_cc0_benedikt_geyer_thumbnail.png)
+![alt text](gdpr_gate_screenshot.png)
+
 
 BEWARE: Alpha version, DO NOT use in production.
 
