@@ -1,15 +1,15 @@
+![alt text](gdpr-gate_cc0_benedikt_geyer_thumbnail.png)
 # GDPR GATE
 Consent page plugin for wordpress - consent first, content later.
-![alt text](gdpr-gate_cc0_benedikt_geyer_thumbnail.png)
-![alt text](gdpr_gate_screenshot.png)
-
-
 BEWARE: Alpha version, DO NOT use in production.
 
 ## Installation
 1. copy/upload to wp-content/plugins
 2. Set privacy page in Wordpress options -> privacy
 3. Happy Hacking
+
+## DEMO
+[![Foo](gdpr_gate_screenshot.png)](https://matthias-andrasch.de)
 
 ## Limitations
 - currently does not work with cache plugins
