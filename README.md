@@ -15,7 +15,7 @@ BEWARE: Alpha version, DO NOT use in production.
 - currently does not work with cache plugins
 - may not work with multisite (subdomain pages)
 - it may hurt your SEO reputation (suggestions welcome for HTTP Header Status)
-- it won't allow search engine robots to access the page
+- it possibly won't allow search engine robots to access the page (see gdpr-gate is_crawler(), suggestions welcome)
 - no multilanguage right now
 - is possibly not 100% compliant with GDPR (legal suggestions also welcome)
 - if there is tracking before template_redirect hook, then this should be mentioned in privacy policy
