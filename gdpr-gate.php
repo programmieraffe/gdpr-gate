@@ -73,29 +73,31 @@
         }
         else
         {
-            // checks if it is not admin area, no login/register page and if cookie is NOT set, then redirects to confirmation page where user can click & confirm (and cookie will be set via JS)
-            if( !is_admin() && !$this->is_system_page() && !isset($_COOKIE["gdpr_gate_never_gonna_give_you_up"])) { 
-                  $this->load_gdpr_gate_confirmation_page();
-            }
-            else{
+            // checks if it is not admin area, no login/register page, no crawler from search engines and if cookie is NOT set, then redirects to confirmation page where user can click & confirm (and cookie will be set via JS)
+          if( !is_admin() && !$this->is_system_page() && !$this->is_crawler() && !isset($_COOKIE["gdpr_gate_never_gonna_give_you_up"])) { 
+            $this->load_gdpr_gate_confirmation_page();
+          }
+          else{
               // we don't have to do something because cookie is set and confirmation was given by user
-            }
+          }
         }
+      }
+
+      function is_crawler()
+      {
+        $userAgent = $_SERVER['HTTP_USER_AGENT'];
+        $crawlers = 'Google|msnbot|Rambler|Yahoo|AbachoBOT|accoona|' .
+        'AcioRobot|ASPSeek|CocoCrawler|Dumbot|FAST-WebCrawler|' .
+        'GeonaBot|Gigabot|Lycos|MSRBOT|Scooter|AltaVista|IDBot|eStyle|Scrubby';
+        $isCrawler = (preg_match("/$crawlers/", $userAgent) > 0);
+        return $isCrawler;
       }
       
       function load_gdpr_gate_confirmation_page()
       {
-
-
           header('HTTP/1.0 503 Service Unavailable'); // 2DO: what is the best way for SEO?
           include_once("gdpr_gate_template.php");
           exit();
-
-          // original:
-          /*
-            header('HTTP/1.0 503 Service Unavailable');
-            include_once("gdpr_lpr_template.php");
-            exit();*/
-          }
-        } /* eo class */
-        $GLOBALS['gdpr_gate'] = new GDPR_GATE();
+      }
+    } /* eo class */
+$GLOBALS['gdpr_gate'] = new GDPR_GATE();
