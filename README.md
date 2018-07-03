@@ -1,6 +1,6 @@
 # GDPR GATE
-[alt text](gdpr-gate_cc0_benedikt_geyer.png)
 Consent page plugin for wordpress - consent first, content later.
+![alt text](gdpr-gate_cc0_benedikt_geyer.png)
 
 BEWARE: Alpha version, DO NOT use in production.
 
@@ -29,3 +29,5 @@ Fork of Simple Maintenance by naa986, thanks very much!
 https://de.wordpress.org/plugins/simple-maintenance/
 (License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html)
+
+GDPR GATE LOGO BY BENEDIKT GEYER (https://pixabay.com/de/users/BenediktGeyer-1771636/)
