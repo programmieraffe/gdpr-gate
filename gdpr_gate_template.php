@@ -33,11 +33,15 @@ $post_page_text_content =   strip_tags( $post->post_content , "<h1><h2><h3><h4><
     <link rel="stylesheet" href="<?php echo GDPR_GATE_URL.'/gdpr-gate.css'; ?>" type="text/css" media="all" />	
 </head>
 <body>
+    <div id="header">
+    <div id="logo"><img src="<?php echo GDPR_GATE_URL.'/gdpr-gate_logo.png'; ?>" alt="GDPR GATE Logo"></div>
+</div>
 
-    <div id="wrap">
-        <h1><?php _e('GDPR gate', $plugin_namespace)?></h1>
+    <div id="container">
 
-        <h2><?php _e('Privacy policy', $plugin_namespace)?></h2>
+        <!-- <h1><?php _e('GDPR gate', $plugin_namespace)?></h1> -->
+
+        <!-- <h2><?php _e('Privacy policy', $plugin_namespace)?></h2> -->
 
         <p><?php _e("This website is built with Wordpress, a open source software for blogs and multimedia content. This website relies on external content and contains embeds from third party providers, such as YouTube videos, Twitter postings, Instagram photos, external images and more - or external webdevelopment resources such as Google Fonts or software provided by so called CDNs. All of this content will be loaded from third party providers, which may track you - details can be found in the privacy policies of the companies offering these services. If you do not agree to these embeds, please DO NOT use this website. Advice: You can use tools such as Privacy Badger by EFF to control your privacy online. Thank you very much!", $plugin_namespace)?></p>
 
