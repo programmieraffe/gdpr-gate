@@ -16,7 +16,8 @@ body{
 #container{
 	background: white;
 	max-width:750px;
-	margin:30px auto;
+	margin:10px auto;
+	padding:20px;
 }
 
 button {
@@ -33,11 +34,12 @@ button {
 
 div.text-content-window{
 	height:300px;
-	width:100%;
+	width:90%;
 	border:1px solid #ccc;
 	font:16px/26px Georgia, Garamond, Serif;
 	overflow:auto;padding:10px;
 	text-align:left;
+	margin:0 auto;
 }
 .consent-box{
 	text-align: center;
