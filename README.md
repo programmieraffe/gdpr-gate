@@ -10,8 +10,8 @@ BEWARE: Alpha version, DO NOT use in production.
 
 ## DEMO
 ![alt text](gdpr_gate_screenshot.png)
-(https://matthias-andrasch.de)
-![alt text](gdpr_gate_screenshot.png)
+https://matthias-andrasch.de
+
 
 ## Limitations
 - currently does not work with cache plugins
