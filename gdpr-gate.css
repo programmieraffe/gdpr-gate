@@ -1,0 +1,32 @@
+body{
+	font-family:"Arial";
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+div.text-content-window{
+	height:300px;
+	width:100%;
+	border:1px solid #ccc;
+	font:16px/26px Georgia, Garamond, Serif;
+	overflow:auto;padding:10px;
+	text-align:left;
+}
+#wrap{
+	max-width:750px;
+	margin:0 auto;
+}
+.consent-box{
+	text-align: center;
+	font-size:80%;
+}
