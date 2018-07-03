@@ -1,5 +1,21 @@
+Consent page plugin for wordpress - consent first, content later.
+
+BEWARE: Alpha version, DO NOT use in production.
+
 # Installation
+1. copy/upload to wp-content/plugins
+2. Set privacy page in Wordpress options -> privacy
+3. Happy Hacking
 
 # Limitations
-- does not work with cache plugins
+- currently does not work with cache plugins
 - may not work with multisite (subdomain pages)
+- it may hurt your SEO reputation (suggestions welcome for HTTP Header Status)
+- it won't allow search engine robots to access the page
+- no multilanguage right now
+- is possibly not 100% compliant with GDPR (legal suggestions also welcome)
+
+Fork of Simple Maintenance by naa986, thanks very much!
+https://de.wordpress.org/plugins/simple-maintenance/
+(License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html)
