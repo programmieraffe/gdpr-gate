@@ -1,0 +1,5 @@
+# Installation
+
+# Limitations
+- does not work with cache plugins
+- may not work with multisite (subdomain pages)
