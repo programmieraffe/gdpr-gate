@@ -85,7 +85,9 @@
       
       function load_gdpr_gate_confirmation_page()
       {
-          header('HTTP/1.0 302 Moved Temporarily'); // 2DO: best way for SEO?
+
+
+          header('HTTP/1.0 503 Service Unavailable'); // 2DO: what is the best way for SEO?
           include_once("gdpr_gate_template.php");
           exit();
 
