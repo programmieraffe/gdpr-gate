@@ -12,7 +12,7 @@ $wp_page_for_privacy_policy_id = get_option('wp_page_for_privacy_policy');
 if($wp_page_for_privacy_policy_id != 0){
     $post   = get_post($wp_page_for_privacy_policy_id);
     // sanitize content so that no embeds are possible
-    $privacy_policy_content =   strip_tags( $post->post_content , "<h1><h2><h3><h4><h5><h6><hr><b><i><u><a><br><ul><li><ol><p><blockquote>");
+    $privacy_policy_content =   strip_tags(  nl2br($post->post_content) , "<h1><h2><h3><h4><h5><h6><hr><b><i><u><a><br><ul><li><ol><p><blockquote>");
 } 
 
 /* current page content - not used by now 
